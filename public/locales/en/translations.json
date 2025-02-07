@@ -1,3 +1,4 @@
 {
-    "hello": "Hello World!"
+    "hello": "Hello World!",
+    "another_text": "This is another text"
 }
