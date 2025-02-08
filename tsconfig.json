@@ -1,6 +1,16 @@
 {
   "compilerOptions": {
-    "resolveJsonModule": true,
-    "esModuleInterop": true
-  }
+    "target": "ES6",
+    "module": "NodeNext",  // Use NodeNext for ES modules
+    "moduleResolution": "NodeNext",  // Use Node.js module resolution
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist",
+    "rootDir": "./",
+    "downlevelIteration": true
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules"]
 }

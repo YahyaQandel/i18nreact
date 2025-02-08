@@ -26,6 +26,10 @@ const App: React.FC = () => {
     <div style={{ textAlign: 'center', marginTop: '50px' }}>
       <h1>{t('hello')}</h1>
       <h1>{t('another_text')}</h1>
+      <h1>{t('third_text')}</h1>
+      <h1>{t('fourth_text')}</h1>
+      <h1>{t('fifth_text')}</h1>
+      <p>{t('welcome_message')}</p>
       <button onClick={() => i18n.changeLanguage('en')}>English</button>
       <button onClick={() => i18n.changeLanguage('es')}>Español</button>
     </div>

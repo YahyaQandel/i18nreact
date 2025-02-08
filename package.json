@@ -5,20 +5,25 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "npx tsc",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "extract-strings": "npm run build && node ./dist/extract-strings.js"
   },
   "dependencies": {
+    "@types/lodash": "^4.17.15",
+    "glob": "^11.0.1",
     "i18next": "^24.2.2",
+    "lodash": "^4.17.21",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-i18next": "^15.4.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",
+    "@types/glob": "^8.1.0",
     "@types/i18next": "^13.0.0",
-    "@types/node": "^22.13.0",
+    "@types/node": "^22.13.1",
     "@types/react": "^18.3.18",
     "@types/react-dom": "^18.3.5",
     "@types/react-i18next": "^8.1.0",

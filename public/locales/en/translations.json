@@ -1,4 +1,8 @@
 {
-    "hello": "Hello World!",
-    "another_text": "This is another text"
+  "another_text": "This is another text",
+  "fifth_text": "fifth text",
+  "fourth_text": "fourth text",
+  "hello": "Hello World!",
+  "third_text": "third text",
+  "welcome_message": "welcome message"
 }
